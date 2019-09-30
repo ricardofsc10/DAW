@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT html (head,body) >
+<!ELEMENT head (title,meta*) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT meta EMPTY >
+<!ELEMENT body (h1,hr,table,hr,hr,h3,ol,hr,hr,h3,p+,hr,hr,h3,ul) >
+
+<!ELEMENT h1 (#PCDATA) >
+
+<!ELEMENT hr EMPTY >
+
+<!ELEMENT table (tbody) >
+<!ELEMENT tbody (tr)+ >
+<!ELEMENT tr (td)+ >
+<!ELEMENT td (b,font) >
+<!ELEMENT b (#PCDATA) >
+<!ELEMENT font (#PCDATA|a)* >
+<!ELEMENT a (#PCDATA) >
+
+<!ELEMENT h3 (#PCDATA) >
+
+<!ELEMENT ol (li)+ >
+<!ELEMENT li (#PCDATA|a)* >
+
+<!ELEMENT p (#PCDATA|a|b|i)* >
+<!ELEMENT i (#PCDATA) >
+
+<!ELEMENT ul (li)+ >
+
+<!ATTLIST html lang CDATA #REQUIRED >
+<!ATTLIST meta http-equiv CDATA #IMPLIED content CDATA #REQUIRED name CDATA #IMPLIED >
+<!ATTLIST h1 align CDATA #IMPLIED >
+<!ATTLIST table width CDATA #IMPLIED border CDATA #IMPLIED >
+<!ATTLIST td width CDATA #IMPLIED >
+<!ATTLIST font color CDATA #IMPLIED >
+<!ATTLIST a href CDATA #REQUIRED target CDATA #IMPLIED >

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Project Record</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body>
+        <h1 align="center">Project Record</h1>
+        <hr/>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>BEGIN DATE:</b>
+                        <font>
+                            24 de setembro de 2019
+                        </font>
+                    </td>
+                    <td>
+                        <b>END DATE:</b>
+                        <font>
+                            1 de outubro de 2019    
+                        </font>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>TITLE:</b>
+                        <font>
+                          DTD e queries de arqueossítios e DTD do Project Record
+                        </font>
+                    </td>
+                    <td>
+                        <b>SUPERVISOR:</b>
+                        <font color="#000080">
+                        <a href="http://www.di.uminho.pt/~jcr" target="_blank">José Carlos 
+                            Ramalho</a>
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr/>
+        <hr/>
+        <h3>WorkTeam:</h3>
+        <ol>
+            <li>
+                Ricardo Filipe Sousa Caçador - <a href="mailto:a81064@alunos.uminho.pt">a81064@alunos.uminho.pt</a> - <a href="https://github.com/ricardofsc10" target="_blank">GitHub</a>
+            </li>
+        </ol>
+        <hr/>
+        <hr/>
+        <h3>Abstract:</h3>
+        <p>O trabalho apresentado contempla <b>dois DTDs, um schema e um documento de texto</b>.</p>
+        <p>Um dos DTDs, o schema e o documento de texto são referentes ao documento sobre <i>arqueossítios do Nordeste Português</i>. No documento de texto foram respondidas às perguntas
+        da ficha nº3, exercício 6 <i>Queries sobre arqueossítios</i> que consiste em especificar expressões XPath para as alíneas lá presentes. No exercício 7 dessa mesma ficha, pede-se
+        que se faça um DTD para o xml de arqueossítios, que se valide esse mesmo ficheiro com o DTD criado e se gere um schema a partir do DTD criado.
+        </p>
+        <p>Por fim, o outro DTD é referente a este mesmo relatório. É de realçar que gerou algumas dúvidas o facto de não conseguir isolar definições de conteúdo que tivessem várias
+        repetições uma vez que isso ia contra a estrutura do documento mas aconselhado pelo docente.
+        </p>
+        <hr/>
+        <hr/>
+        <h3>Deliverables:</h3>
+        <ul>
+            <li><a href="arqueossitios_nordeste.dtd">DTD sobre Arqueossítios do Nordeste Português</a></li>
+            <li><a href="arqueossitios_nordeste.txt">Queries sobre os Arqueossítios</a></li>
+            <li><a href="arqueossitios_nordeste.xsd">Schema do DTD referente</a></li>
+            <li><a href="PRtpc2.dtd">DTD do Project Record</a></li>
+        </ul>
+    </body>
+</html>
