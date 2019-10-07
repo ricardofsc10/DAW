@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <title>Project Record</title>
+      <meta charset="UTF-8"></meta>
+   </head>
+   <body>
+      
+      Desenvolvimento de Aplicações Web - TPC 3
+      Transformações com stylesheet de um PR e criação de um site para os arqueossítios
+       homepage="http://www4.di.uminho.pt/~jcr/"&gt;José Carlos Ramalho
+      6 de Outubro 2019
+      7 de Outubro 2019
+      
+      
+      
+      A81064
+      Ricardo Filipe Sousa Caçador
+      a81064@alunos.uminho.pt
+      https://github.com/ricardofsc10
+      
+      
+      
+      
+      Trabalho de casa pegamos no PR que o professor disponibilizou na aula e criamos uma
+      stylesheet para, desta forma, gerar uma 
+      página HTML para o PR.
+      Também neste TPC3 é pedido para criar um stylesheet para os arqueossítios e gerar
+      a respetiva página HTML.
+      
+      
+      
+      pr.xml
+      pr.xsl
+      pr.html
+      arq.xls
+      index arqueosítios
+      
+      
+   </body>
+</html>
