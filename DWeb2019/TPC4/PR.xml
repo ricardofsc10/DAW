@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abstract SYSTEM "PR.dtd">
+<abstract>
+    <metadata>
+        <keyname>Desenvolvimento de Aplicações Web - TPC 3</keyname>
+        <title>Transformações com stylesheet de um PR e criação de um site para os arqueossítios</title>
+        <supervisor> homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>6 de Outubro 2019</bdate>
+        <edate>7 de Outubro 2019</edate>
+    </metadata>
+        <workteam>
+            <worker>
+                <identifier>A81064</identifier>
+                <name>Ricardo Filipe Sousa Caçador</name>
+                <email>a81064@alunos.uminho.pt</email>
+                <git>https://github.com/ricardofsc10</git>
+            </worker>
+        </workteam>
+        <abstract>
+            <p>
+                Trabalho de casa em que utilizando o PR que o professor disponibilizou na aula e criamos uma stylesheet para, desta forma, gerar uma 
+                página HTML para o PR.
+                Também neste TPC3 é pedido para criar um stylesheet para os arqueossítios e gerar a respetiva página HTML.
+            </p>
+        </abstract>
+        <deliverables>
+            <deliverable path="./PR.xml">pr.xml</deliverable>
+            <deliverable path="./PR.xsl">pr.xsl</deliverable>
+            <deliverable path="./PR.html">pr.html</deliverable>
+            <deliverable path="./arqueossitios_nordeste.xsl">arq.xls</deliverable>
+            <deliverable path="./html/index.html">index arqueosítios</deliverable>
+        </deliverables>
+</abstract>
