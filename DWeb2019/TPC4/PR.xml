@@ -3,10 +3,10 @@
 <abstract>
     <metadata>
         <keyname>Desenvolvimento de Aplicações Web - TPC 3</keyname>
-        <title>Transformações com stylesheet de um PR e criação de um site para os arqueossítios</title>
+        <title>Criação de servidor NodeJS para resposta a pedidos de ficheiros html</title>
         <supervisor> homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
-        <bdate>6 de Outubro 2019</bdate>
-        <edate>7 de Outubro 2019</edate>
+        <bdate>14 de Outubro 2019</bdate>
+        <edate>15 de Outubro 2019</edate>
     </metadata>
         <workteam>
             <worker>
@@ -18,16 +18,16 @@
         </workteam>
         <abstract>
             <p>
-                Trabalho de casa em que utilizando o PR que o professor disponibilizou na aula e criamos uma stylesheet para, desta forma, gerar uma 
-                página HTML para o PR.
-                Também neste TPC3 é pedido para criar um stylesheet para os arqueossítios e gerar a respetiva página HTML.
+                Trabalho de casa em que primeiro devíamos dividir o ficheiro XML em ficheiros XML individuais
+                e utilizar uma XSL para transformar em HTML. Depois, aplicando os conhecimentos da 
+                última aula era pedido para criar um servidor nodejs que devolvesse o XML do arqueossítio selecionado.
             </p>
         </abstract>
         <deliverables>
             <deliverable path="./PR.xml">pr.xml</deliverable>
             <deliverable path="./PR.xsl">pr.xsl</deliverable>
             <deliverable path="./PR.html">pr.html</deliverable>
-            <deliverable path="./arqueossitios_nordeste.xsl">arq.xls</deliverable>
-            <deliverable path="./html/index.html">index arqueosítios</deliverable>
+            <deliverable path="./arqueossitios.xml">arq.xls</deliverable>
+            <deliverable path="./xml-split.xsl">xml-split.xsl</deliverable>
         </deliverables>
 </abstract>
