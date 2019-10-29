@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abstract SYSTEM "PR.dtd">
+<abstract>
+    <metadata>
+        <keyname>Desenvolvimento de Aplicações Web - TPC 3</keyname>
+        <title>Desenvolvimento de um servidor em Node.js para Lista de Tarefas</title>
+        <supervisor> homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>15 de Outubro 2019</bdate>
+        <edate>21 de Outubro 2019</edate>
+    </metadata>
+        <workteam>
+            <worker>
+                <identifier>A81064</identifier>
+                <name>Ricardo Filipe Sousa Caçador</name>
+                <email>a81064@alunos.uminho.pt</email>
+                <git>https://github.com/ricardofsc10</git>
+            </worker>
+        </workteam>
+        <abstract>
+            <p>
+                Trabalho de casa que consistia em desenvolver um servidor single page em Node.js para manter e adicionar tarefas a uma Lista de Tarefas.
+            </p>
+        </abstract>
+        <deliverables>
+            <deliverable path="./PR.xml">pr.xml</deliverable>
+            <deliverable path="./PR.xsl">pr.xsl</deliverable>
+            <deliverable path="./ListaTarefas.js">ListaTarefas.js</deliverable>
+            <deliverable path="./tarefas.json">tarefas.json</deliverable>
+            
+        </deliverables>
+</abstract>
