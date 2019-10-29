@@ -1,0 +1,28 @@
+extends layout
+block content  
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Registo de uma música
+                a(href='/') Voltar à página principal
+            .w3-container
+                form.w3-container(action='/musica' method='POST')
+                    label.w3-teal
+                        b Província
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='prov' value=prov required)
+                    label.w3-teal
+                        b Local
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='local' value=local)
+                    label.w3-teal
+                        b Título
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='tit' value=tit required)
+                    label.w3-teal
+                        b Musico
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='musico' value=musico)
+                    label.w3-teal
+                        b Duração da música
+                    input.w3-input.w3-border.w3-light-grey(type='time' name='duracao' value=duracao required)
+                    input.w3-btn.w3-blue-grey(type='submit', value='Guardar')
+                    label.w3-teal
+            footer.w3-container.w3-teal
+                address Arquivo Son EVO App

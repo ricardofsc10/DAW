@@ -1,0 +1,35 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+        header.w3-container.w3-teal
+            h3 Arquivo sonoro Ernesto Veiga de Oliveira
+            form.w3-container
+                label
+                    b Pesquisa de uma musica pelo título
+                input.w3-input.w3-border.w3-light-grey(type='text' placeholder="Search..." name='search')
+                input.w3-btn.w3-blue-grey(type='submit' value='Procurar')
+                label.w3-teal
+        .w3-card-4
+            table.w3-table-all
+                tr
+                    th Província
+                    th Local
+                    th Título
+                    th Músico
+                    th Duracao
+                each mu in lista
+                    if search!=null
+                        if (mu.tit==search)
+                            tr
+                                td=mu.prov
+                                td=mu.local
+                                td=mu.tit
+                                td=mu.musico
+                                td=mu.duracao
+                                td
+                                    button.w3-button.w3-circle.w3-blue-grey(onclick="editaItem('" + mu.prov + "','" + mu.local + "','" + mu.tit + "','" + mu.musico +  "','" + mu.duracao + "')") Editar    
+                                td
+                                    button.w3-button.w3-circle.w3-blue-grey(onclick="apagaItem('" + mu.tit +  "')") Apagar
+        footer.w3-container.w3-teal
+            address Arquivo Son EVO App

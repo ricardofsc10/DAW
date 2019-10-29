@@ -1,41 +1,16 @@
 extends layout
 block content
-    .w3-container
-    h1 Arquivo Sonoro
+  .w3-container
     .w3-card-4
-            header.w3-container.w3-teal
-                h3 Novo item
-            .w3-container
-                form.w3-container(action='/' method='POST')
-                    label.w3-teal
-                        b Provincia
-                    input.w3-input.w3-border.w3-light-grey(type='text' name='prov' id='prov')
-                    label.w3-teal
-                        b Local
-                    input.w3-input.w3-border.w3-light-grey(type='text' name='local' id='local')
-                    label.w3-teal
-                        b Título
-                    input.w3-input.w3-border.w3-light-grey(type='text' name='tit' id='tit')
-                    label.w3-teal
-                        b Músico
-                    input.w3-input.w3-border.w3-light-grey(type='text' name='musico' id='musico')
-                    input.w3-btn.w3-blue-grey(name='enviar' type='submit' value='Enviar')
-          
-            .w3-card-4
-                table.w3-table-all
-                    tr  
-                        th Provincia
-                        th Local
-                        th Título
-                        th Músico
-                    each a in lista
-                        tr
-                            td= a.prov
-                            td= a.local
-                            td= a.tit
-                            td= a.musico
-                            td
-                                button.w3-button.w3-circle.w3-blue-grey(onclick="apagar('" + a.tit + "')") Apagar
-                                button.w3-button.w3-circle.w3-blue-grey(onclick="listar('" + a.tit + "')") Ver
-            footer.w3-container.w3-teal
-                address Gerado por Arquivo Sonoro App
+      header.w3-container.w3-teal
+        h3 Arquivo sonoro Ernesto Veiga de Oliveira
+      .w3-container
+        ul.w3.ul
+          li
+            a(href='/registar') Adicionar música ao arquivo sonoro
+          li
+            a(href='/listar') Lista todos os sons do arquivo
+          li
+            a(href='/gerir') Gerir músicas do arquivo
+      footer.w3-container.w3-teal
+        address Arquio Son EVO App
