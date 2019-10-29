@@ -3,10 +3,10 @@
 <abstract>
     <metadata>
         <keyname>Desenvolvimento de Aplicações Web - TPC 3</keyname>
-        <title>Desenvolvimento de um servidor em Node.js para Lista de Tarefas</title>
+        <title>Servidor Node.js para gestão do Arquivo Sonoro de Ernesto de Oliveira</title>
         <supervisor> homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
-        <bdate>15 de Outubro 2019</bdate>
-        <edate>21 de Outubro 2019</edate>
+        <bdate>22 de Outubro 2019</bdate>
+        <edate>29 de Outubro 2019</edate>
     </metadata>
         <workteam>
             <worker>
@@ -18,14 +18,16 @@
         </workteam>
         <abstract>
             <p>
-                Trabalho de casa que consistia em desenvolver um servidor single page em Node.js para manter e adicionar tarefas a uma Lista de Tarefas.
-            </p>
+                Este trabalho consistia em desenvolver um servidor que permitisse gerir um arquivo sonoro. Possui funcionalidades como listar, editar, apagar e procurar músicas no arquivo.
+                É composto por 6 ficheiros .pug sendo 3 deles os ficheiros base (index, layout e error) e os outros 3 os que possibilitam registar, ver e gerir músicas dentro do arquivo.
+                Nas routes temos o ficheiro mais  importante, index.js, responsável por carregar todos os pedidos que o utilizador fizer.
+                
+             </p>
         </abstract>
         <deliverables>
             <deliverable path="./PR.xml">pr.xml</deliverable>
             <deliverable path="./PR.xsl">pr.xsl</deliverable>
-            <deliverable path="./ListaTarefas.js">ListaTarefas.js</deliverable>
-            <deliverable path="./tarefas.json">tarefas.json</deliverable>
-            
+            <deliverable path="./app.js">app.js</deliverable>
+            <deliverable path="./views/index.json">index.json</deliverable>
         </deliverables>
 </abstract>
