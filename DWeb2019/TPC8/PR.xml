@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abstract SYSTEM "PR.dtd">
+<abstract>
+    <metadata>
+        <keyname>Desenvolvimento de Aplicações Web - TPC 3</keyname>
+        <title>API de dados para a lista de prémios Nobel</title>
+        <supervisor> homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>5 de Novembro 2019</bdate>
+        <edate>12 de Novembro 2019</edate>
+    </metadata>
+        <workteam>
+            <worker>
+                <identifier>A81064</identifier>
+                <name>Ricardo Filipe Sousa Caçador</name>
+                <email>a81064@alunos.uminho.pt</email>
+                <git>https://github.com/ricardofsc10</git>
+            </worker>
+        </workteam>
+        <abstract>
+            <p>
+                Resolução do exercício 1 da seguinte ficha: http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e2.html
+                
+             </p>
+        </abstract>
+        <deliverables>
+            <deliverable path="./PR.xml">pr.xml</deliverable>
+            <deliverable path="./PR.xsl">pr.xsl</deliverable>
+            <deliverable path="./api.js">api.js</deliverable>
+            <deliverable path="./app.js">app.js</deliverable>
+            <deliverable path="./routes/index.js">index.json</deliverable>
+            <deliverable path="./routes/nobels.json">nobels.json</deliverable>
+            <deliverable path="./controllers/premios.json">premios.json</deliverable>
+            <deliverable path="./models/premios.json">premios.json</deliverable>  
+        </deliverables>
+</abstract>
