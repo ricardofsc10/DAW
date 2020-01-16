@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abstract SYSTEM "PR.dtd">
+<abstract>
+    <metadata>
+        <keyname>Ficha de Avaliação DWEB 2020</keyname>
+        <title>Resolução da Ficha de Avaliação 2020</title>
+        <supervisor> homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>16 de Janeiro 2020</bdate>
+        <edate>16 de Janeiro 2020</edate>
+    </metadata>
+        <workteam>
+            <worker>
+                <identifier>A81064</identifier>
+                <name>Ricardo Filipe Sousa Caçador</name>
+                <email>a81064@alunos.uminho.pt</email>
+                <git>https://github.com/ricardofsc10</git>
+            </worker>
+        </workteam>
+        <abstract>
+            <p>
+                No primeiro exercício efectuei persistência de dados através do MongoDB. Através do comando mongoimport criei uma base de dados "arquivo5" na qual coloquei o ficheiro json utilizando a opção --jsonArray. As únicas transformações que fiz no dataset foi a mudança de posição do id. Assim deve ser utilizado o comando dentro da pasta do mongoDB: mongoimport --db arquivo5 --collection arquivo5 --file "localizacao do ficheiro arquivo-musica-digital.jsohn"--jsonArray  para criar a base de dados com o ficheiro json e só depois correr o programa.
+
+                Sobre o segundo exercício as respostas à primeira parte encontram-se no ficheiro "RespostasExercicios2".
+            </p>
+        </abstract>
+        <deliverables>
+            <deliverable path="./PR.xml">pr.xml</deliverable>
+        </deliverables>
+</abstract>

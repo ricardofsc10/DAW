@@ -5,7 +5,7 @@ var premiosSchema = new Schema({
     year:String,
     category:String,
     overallMotivation:String,   
-    laureados:[laureadosSchema]
+    laureados: String
 });
 
 module.exports = mongoose.model('nobels', premiosSchema)

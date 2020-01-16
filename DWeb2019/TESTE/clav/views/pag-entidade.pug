@@ -1,0 +1,59 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Entidade
+    table.w3-table-all
+        tr
+            th Estado
+            th Sigla
+            th SIOE
+            th Designação
+            th ID
+            th Internacional
+            tr
+                td= ent.sigla
+                td= ent.estado
+                td= ent.sioe
+                td= ent.designacao
+                td= ent.id
+                td= ent.internacional
+
+    .w3-container
+    h1 Tipologias a que pertence
+    table.w3-table-all
+        tr
+            th Sigla
+            th Designação
+            th Id
+        each t in tip
+            tr
+                td= t.sigla
+                td= t.designacao
+                td= t.id
+
+    .w3-container
+    h1 Donos
+    table.w3-table-all
+        tr
+            th Codigo
+            th Titulo
+        each d in dn
+            tr
+                td= d.codigo
+                td= d.titulo
+
+        .w3-container
+    h1 Participantes
+    table.w3-table-all
+        tr
+            th TipoPar
+            th Codigo
+            th Titulo
+        each p in par
+            tr
+                td= p.tipoPar
+                td= p.codigo
+                td= p.titulo
+    address 
+    a(href="http://localhost:3000/") HomePage
